@@ -1,0 +1,165 @@
+* {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin: 0px;
+}
+
+/* header sections */
+.welcome-section{
+    background-image: linear-gradient( rgba(7, 2, 17, 1) , rgba(7, 2, 17, 0)),url('/images/Banner\ Image.png');
+    background-repeat: none;
+    background-size: cover;
+    /* width: 1320px;
+    height: 600px; */
+    margin: 50px 140px;
+    padding: 177px 344px;
+    border-radius: 16px;
+    /* background-image: linear-gradient(to right, rgba(7, 2, 17, 1) , rgba(7, 2, 17, 0)); */
+}
+.welcome-header-box{
+    margin: 177px 344px;
+}
+.welcome-header1{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 16px 186px 16px 186px;
+}
+.welcome-header2{
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Share */
+
+
+/* Second Page */
+.second-page-container{
+    text-align: center;
+    padding: 120px 400px;
+}
+.second-page-header1{
+    color: #FF0000;
+    font-weight: 800;
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+.second-page-header2{
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.second-page-header3{
+    color: #070211;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+/* third page */
+.third-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('/images/Vectorrr.png');
+    /* height: 600px;
+    width: 1320px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 140px;
+    border-radius: 16px;
+    padding: 126px 140px;
+}
+.third-page-container{
+
+}
+.third-page-header1{
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 24px;
+}
+.thid-page-description{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 80%;
+    margin-bottom: 48px;
+}
+.third-page-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: none;
+    margin-left: 32px;
+}
+.third-page-img{
+    width: 320px;
+    height: 460px;
+}
+/* Fourth Page */
+.fourth-page{
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+   
+    padding: 100px 386px ;
+    margin: 0px 140px 120px 140px;
+    border-radius: 16px;
+    text-align: center;
+}
+.fourth-page-design{
+    font-weight: 700;
+    font-size: 32px;
+    color: #070211;
+}
+.redu{
+    color: #FF0000;
+}
+.fourth-page-btn{
+    background-color: #FF0000;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    margin-top: 48px;
+}
+/* fifth page */
+.fifth-page-container-middle-img{
+    border-radius: 100%;
+    border: 10px solid red;
+    padding: 50px;
+}
+.fifth-page-header1{
+    font-weight: 500;
+    font-size: 24px;
+    color: red;
+}
+.fifth-page-header2{
+    font-weight: 800;
+    font-size: 48px;
+    color: #070211;
+}
+.fifth-page-description1{
+    color: rgba(7, 2, 17, 0.6);
+   
+    font-size: 20px;
+    font-weight: 400;
+}
+.fifth-page-header3{
+    font-weight: 800;
+    font-size: 48px;
+    color: red;
+}
+.fifth-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 140px;
+}
