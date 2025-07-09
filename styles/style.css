@@ -209,12 +209,21 @@ hr {
   /* background-size: cover; */
   background-position: bottom;
   padding-left: 190px;
-  margin-top: 64px;
+
+  margin-top: 60px;
   margin-bottom: 120px;
+  background-size:contain;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  align-items:end;
+  justify-content: space-between;
+
 }
 .sixth-page-img1 {
   width: 600px;
   height: 450px;
+  margin-bottom: 50px;
 }
 .sixth-page-img2 {
   margin-left: 400px;
@@ -250,6 +259,8 @@ hr {
 }
 .seven-page-container2 {
   margin-left: 140px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 /* eight page */
 
@@ -260,6 +271,7 @@ hr {
   margin-right: 140px;
   border-radius: 16px;
   padding: 80px;
+  margin-bottom: 120px;
 }
 .email-box {
   border: none;
@@ -323,4 +335,7 @@ hr {
 
   align-items: center;
   justify-content: space-between;
+}
+.footer-page-imgs{
+    margin-right: 24px;
 }
