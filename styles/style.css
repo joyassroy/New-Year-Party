@@ -10,7 +10,7 @@
 /* header sections */
 .welcome-section {
   background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
-    url("/images/Banner_Image.png");
+    url("../images/Banner_Image.png");
   background-repeat: none;
   background-size: cover;
   /* width: 1320px;
@@ -79,7 +79,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
-    url("/images/Vectorrr.png");
+    url("../images/Vectorrr.png");
   /* height: 600px;
     width: 1320px; */
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ hr {
 }
 
 .sixth-page-container2 {
-  background-image: url("/images/Rectangle_2.png");
+  background-image: url("../images/Rectangle_2.png");
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: bottom;
